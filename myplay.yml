@@ -3,7 +3,7 @@
   tasks:
     - file: 
         name: "/tmp/one"
-        state: "file"
+        state: "directory"
     
     - user:
         name: 'ravi'
