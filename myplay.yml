@@ -1,0 +1,11 @@
+---
+- hosts: 192.168.0.106 
+  tasks:
+    - file: 
+        name: "/tmp/one"
+        state: "touched"
+    
+    - user:
+        name: 'ravi'
+        state: 'present'
+...
